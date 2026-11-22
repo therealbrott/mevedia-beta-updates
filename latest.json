@@ -1,0 +1,38 @@
+{
+  "app": "MediaDesk",
+  "channel": "beta",
+  "version": "0.6.5",
+  "title": "First Beta",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T02:48:25.281Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.6.5.mdpatch",
+    "size": 1892206,
+    "sha256": "8641454827f5ad26f26966282fbdc4d25bc082fa43e77849155ddef4f951af58",
+    "files": 42
+  },
+  "installer": null,
+  "notes": {
+    "version": "0.6.5",
+    "date": "2026-11-22",
+    "title": "First Beta",
+    "summary": "The first beta build: clearer messages on the Updates page.",
+    "sections": [
+      {
+        "type": "improved",
+        "heading": "Improved",
+        "items": [
+          {
+            "title": "\"No beta yet\" instead of an error",
+            "text": "If nothing has been published to the beta build yet, Updates now says \"No beta yet\" instead of \"Couldn't check for updates … HTTP 404\"."
+          },
+          {
+            "title": "Clearer Build card",
+            "text": "The badge next to Build now says \"You're on Main\" or \"You're on Beta\", so it's clear which build is running, separate from the one you picked."
+          }
+        ]
+      }
+    ]
+  }
+}

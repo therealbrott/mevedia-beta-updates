@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-11-22T02:48:25.281Z",
+  "mainVersion": "0.6.4",
+  "items": [
+    {
+      "id": "0.6.5#no-beta-yet-instead-of-an-error",
+      "version": "0.6.5",
+      "type": "improved",
+      "title": "\"No beta yet\" instead of an error",
+      "text": "If nothing has been published to the beta build yet, Updates now says \"No beta yet\" instead of \"Couldn't check for updates … HTTP 404\"."
+    },
+    {
+      "id": "0.6.5#clearer-build-card",
+      "version": "0.6.5",
+      "type": "improved",
+      "title": "Clearer Build card",
+      "text": "The badge next to Build now says \"You're on Main\" or \"You're on Beta\", so it's clear which build is running, separate from the one you picked."
+    }
+  ]
+}
