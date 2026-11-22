@@ -1,35 +1,39 @@
 {
   "app": "MediaDesk",
   "channel": "beta",
-  "version": "0.6.5",
-  "title": "First Beta",
+  "version": "0.6.6",
+  "title": "Three Choices",
   "date": "2026-11-22",
-  "publishedAt": "2026-11-22T02:48:25.281Z",
+  "publishedAt": "2026-11-22T03:14:30.182Z",
   "electron": 45,
   "patch": {
-    "file": "patches/mediadesk-0.6.5.mdpatch",
-    "size": 1892206,
-    "sha256": "8641454827f5ad26f26966282fbdc4d25bc082fa43e77849155ddef4f951af58",
+    "file": "patches/mediadesk-0.6.6.mdpatch",
+    "size": 1893959,
+    "sha256": "bb90b28daa3c3c6431d9d4afae911ff38639206beaa7caa587f0e374ba7e598e",
     "files": 42
   },
   "installer": null,
   "notes": {
-    "version": "0.6.5",
+    "version": "0.6.6",
     "date": "2026-11-22",
-    "title": "First Beta",
-    "summary": "The first beta build: clearer messages on the Updates page.",
+    "title": "Three Choices",
+    "summary": "Beta review now has three choices for every change, each with its own note.",
     "sections": [
       {
-        "type": "improved",
-        "heading": "Improved",
+        "type": "changed",
+        "heading": "Changed",
         "items": [
           {
-            "title": "\"No beta yet\" instead of an error",
-            "text": "If nothing has been published to the beta build yet, Updates now says \"No beta yet\" instead of \"Couldn't check for updates … HTTP 404\"."
+            "title": "Move to main, Keep in beta & update, Remove from both",
+            "text": "Each change on the Beta review page now has three choices instead of two. After you pick one, a note box opens: \"Change anything first?\" for Move to main, \"What should be updated?\" for Keep in beta & update, and \"Why remove it?\" for Remove from both. The note saves when you click away or press Enter (Shift+Enter for a new line). Click your choice again to undo it."
           },
           {
-            "title": "Clearer Build card",
-            "text": "The badge next to Build now says \"You're on Main\" or \"You're on Beta\", so it's clear which build is running, separate from the one you picked."
+            "title": "Disagreements are shown",
+            "text": "If testers pick different options for the same change, it's marked \"You disagree\" in red, and the list for Claude shows who picked what. Filters: All, Not decided, Main, Beta & update, Remove, Disagree."
+          },
+          {
+            "title": "Old ticks carry over",
+            "text": "Ticks made in V0.6.5 count as the new choices: Push to main becomes Move to main, and Keep in beta becomes Keep in beta & update."
           }
         ]
       }

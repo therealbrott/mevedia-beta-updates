@@ -1,7 +1,28 @@
 {
-  "generatedAt": "2026-11-22T02:48:25.281Z",
+  "generatedAt": "2026-11-22T03:14:30.182Z",
   "mainVersion": "0.6.4",
   "items": [
+    {
+      "id": "0.6.6#move-to-main-keep-in-beta-update-remove-from-both",
+      "version": "0.6.6",
+      "type": "changed",
+      "title": "Move to main, Keep in beta & update, Remove from both",
+      "text": "Each change on the Beta review page now has three choices instead of two. After you pick one, a note box opens: \"Change anything first?\" for Move to main, \"What should be updated?\" for Keep in beta & update, and \"Why remove it?\" for Remove from both. The note saves when you click away or press Enter (Shift+Enter for a new line). Click your choice again to undo it."
+    },
+    {
+      "id": "0.6.6#disagreements-are-shown",
+      "version": "0.6.6",
+      "type": "changed",
+      "title": "Disagreements are shown",
+      "text": "If testers pick different options for the same change, it's marked \"You disagree\" in red, and the list for Claude shows who picked what. Filters: All, Not decided, Main, Beta & update, Remove, Disagree."
+    },
+    {
+      "id": "0.6.6#old-ticks-carry-over",
+      "version": "0.6.6",
+      "type": "changed",
+      "title": "Old ticks carry over",
+      "text": "Ticks made in V0.6.5 count as the new choices: Push to main becomes Move to main, and Keep in beta becomes Keep in beta & update."
+    },
     {
       "id": "0.6.5#no-beta-yet-instead-of-an-error",
       "version": "0.6.5",
